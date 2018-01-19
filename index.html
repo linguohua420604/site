@@ -10,37 +10,15 @@
 
 </select>
 <button id="load">加载</button>
-<div class="video" id="HLSPlayer">
+<iframe id="url" src="" height="100%" width="100%">
 
-    <SCRIPT LANGUAGE=JavaScript>
-        function GetQueryString(name)
-        {
-            try {
-                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-                var r = window.location.search.substr(1).match(reg);
-                if (r != null)return unescape(r[2]);
-                return null;
-            }catch (e){
-                return null
-            }
-        }
-        var vID = "";
-        var vWidth = "100%";                //播放器宽度设置
-        var vHeight = 400;                   //播放器宽度设置
-        var vPlayer = "./source/HLSPlayer.swf?v=1.5"; //播放器文件
-        var vHLSset = "./source/HLS.swf";             //HLS配置
-        var vPic = "./source/images/start.jpg";    //视频缩略图
-        var vCssurl = "./source/images/mini.css";     //移动端CSS应用文件
-        var vHLSurl =GetQueryString("url")?"./source/location/1516345283080/12260/video.m3u8":GetQueryString("url");
-        //-->
-    </SCRIPT>
-    <script type="text/javascript" src="./source/hls.min.js?rand=3396fsa778"></script>
-</div>
+</iframe>
 <script>
     function bindFirst(){
         $("#first").html("");
         $("#first").append("<option value='2ba9'>初级会计实务</option>");
         $("#first").append("<option value='2ba8'>经济法基础</option>");
+        bindSecond("2ba9");
     };
     function bindSecond(id){
         $("#second").html("");
@@ -66,7 +44,7 @@
     });
     $("#load").on('click',function(){
         var url="https://linguohua420604.github.io/site/?url="+ $('#second option:selected').val();
-        window.location.replace(url);
+        document.frames[0].location.href =url;
     });
     bindFirst();
 </script>

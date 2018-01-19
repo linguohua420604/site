@@ -2,10 +2,291 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0436590-0790-42a4-aade-6b1f535f0140" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/jquery.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/14350/key.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/14350/keyText.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/14350/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12260/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12260/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12352/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12352/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12445/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12445/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12463/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12463/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12464/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12464/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12567/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12567/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12568/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12568/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12569/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12569/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/12570/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/13188/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/13188/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/15569/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/15569/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/15799/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/15799/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/15800/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/15800/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/16721/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/16721/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17046/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17046/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17055/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17055/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17056/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17056/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17075/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17075/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17078/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17078/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17079/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17079/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17114/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17114/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17115/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17115/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17129/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17129/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17136/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17136/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17137/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17137/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17157/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17157/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17158/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17158/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17916/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17916/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17922/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17922/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17925/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17925/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17926/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17926/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17936/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17936/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17937/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17937/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17938/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17938/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17939/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17939/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17940/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17940/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17941/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17941/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17942/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17942/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17943/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17943/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17944/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17944/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17945/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17945/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17952/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17952/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17960/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17960/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17962/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17962/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17963/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17963/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17964/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17964/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17965/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17965/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17966/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17966/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17967/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17967/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17968/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17968/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17969/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17969/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17970/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17970/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17971/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17971/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17972/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17972/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17973/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17973/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17974/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17974/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17975/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17975/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17976/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17976/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17977/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17977/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17978/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17978/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17980/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17980/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17981/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17981/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17982/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17982/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17984/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17984/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17985/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17985/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17986/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17986/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17992/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17992/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17993/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17993/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17994/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17994/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17995/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17995/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17996/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17996/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17997/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/17997/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18023/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18023/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18024/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18024/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18025/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18025/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18029/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18029/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18030/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18030/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18031/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18031/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18032/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18032/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18038/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18038/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18039/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18039/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18040/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18040/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18042/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18042/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18050/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18050/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18051/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18051/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18067/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18067/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18068/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18068/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18145/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18145/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18148/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18148/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18152/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18152/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18158/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18158/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18176/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18176/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18177/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18177/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18178/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18178/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18179/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18179/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18254/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18254/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18255/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18255/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18256/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18256/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18257/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18257/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18258/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18258/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18259/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18259/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18260/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18260/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18261/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18261/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18262/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18262/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18263/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18263/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18264/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18264/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18275/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18275/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18276/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18276/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18277/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18277/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18278/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18278/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18279/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18279/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18280/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18280/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18289/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18289/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18290/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18290/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18306/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18306/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18307/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18307/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18308/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18308/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18309/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18309/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18310/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18310/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18311/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18311/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18317/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18317/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18318/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18318/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18319/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18319/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18331/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18331/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18332/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18332/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18333/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18333/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18339/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18339/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18407/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18407/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18408/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18408/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18423/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18423/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18424/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18424/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18444/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18444/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18445/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18445/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18446/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18446/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18496/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18496/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18498/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/18498/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19153/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19153/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19154/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19154/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19155/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19155/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19167/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19167/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19171/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19171/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19174/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19174/video.m3u8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19179/keyText.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/location/1516345283080/19179/video.m3u8" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -41,8 +322,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+            <state relative-caret-position="703">
+              <caret line="55" column="109" selection-start-line="55" selection-start-column="109" selection-end-line="55" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -71,8 +352,8 @@
       <file leaf-file-name="hls.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/hls.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6036" selection-start-line="0" selection-start-column="6029" selection-end-line="0" selection-end-column="6036" />
+            <state relative-caret-position="171">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -123,6 +404,7 @@
       <list>
         <option value="$PROJECT_DIR$/source/14350/video.m3u8" />
         <option value="$PROJECT_DIR$/index_bak.html" />
+        <option value="$PROJECT_DIR$/source/hls.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -221,36 +503,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="location" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1516345283080" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="location" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1516345283080" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12260" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -739,12 +991,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516329441262</updated>
       <workItem from="1516329443197" duration="69000" />
-      <workItem from="1516333925230" duration="6416000" />
+      <workItem from="1516333925230" duration="10792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6485000" />
+    <option name="totallyTimeSpent" value="10861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -900,16 +1152,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/hls.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6036" selection-start-line="0" selection-start-column="6029" selection-end-line="0" selection-end-column="6036" />
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        <state relative-caret-position="703">
+          <caret line="55" column="109" selection-start-line="55" selection-start-column="109" selection-end-line="55" selection-end-column="109" />
           <folding />
         </state>
       </provider>

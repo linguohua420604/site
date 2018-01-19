@@ -3,15 +3,26 @@
     <script type="text/javascript" src="./source/jquery.min.js"></script>
 </head>
 <body>
-<button id="test">测试</button>
+<select name="first" id="first" style="width: 200px;font-size:12px">
+
+</select>
+<select name="second" id="second" style="width: 200px;font-size:12px">
+
+</select>
+<button id="load">加载</button>
 <div class="video" id="HLSPlayer">
 
     <SCRIPT LANGUAGE=JavaScript>
         function GetQueryString(name)
         {
-            var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-            var r = window.location.search.substr(1).match(reg);
-            if(r!=null)return  unescape(r[2]); return null;
+            try {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                var r = window.location.search.substr(1).match(reg);
+                if (r != null)return unescape(r[2]);
+                return null;
+            }catch (e){
+                return null
+            }
         }
         var vID = "";
         var vWidth = "100%";                //播放器宽度设置
@@ -26,10 +37,38 @@
     <script type="text/javascript" src="./source/hls.min.js?rand=3396fsa778"></script>
 </div>
 <script>
-$("#test").bind("click",function () {
-   var url="https://linguohua420604.github.io/site/?url="+"./source/location/1516345283080/12352/video.m3u8";
-    location.assign(url);
-    location.reload(true)
-});
+    function bindFirst(){
+        $("#first").html("");
+        $("#first").append("<option value='2ba9'>初级会计实务</option>");
+        $("#first").append("<option value='2ba8'>经济法基础</option>");
+    };
+    function bindSecond(id){
+        $("#second").html("");
+       if(id=="2ba9") {
+           $.getJSON("https://linguohua420604.github.io/site/source/location/1516350329202_data.json", function (result) {
+               $.each(result, function (i, field) {
+                   ("#second").append("<option value='" + field["url"] + "'>" + field["name"] + "</option>");
+               });
+           });
+       }else{
+           $.getJSON("https://linguohua420604.github.io/site/source/location/1516350329202_data.json", function (result) {
+               $.each(result, function (i, field) {
+                   ("#second").append("<option value='" + field["url"] + "'>" + field["name"] + "</option>");
+               });
+           });
+       }
+    };
+    $("#first").change(function(){
+        var val = $(this).children('option:selected').val();
+        if(val) {
+            bindSecond(val);
+        }
+    });
+    $("#load").on('click',function(){
+        var url="https://linguohua420604.github.io/site/?url="+ $('#second option:selected').val();
+        location.assign(url);
+        location.reload(true)
+    });
+    bindFirst();
 </script>
 </body>

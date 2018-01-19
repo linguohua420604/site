@@ -1,0 +1,14 @@
+#EXTM3U
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-VERSION:3
+#EXT-X-KEY:METHOD=AES-128,URI="https://linguohua420604.github.io/site/source/location/1516351041206/18063/keyText.txt",IV=0x542d6de263455992179f42563d0dedd2
+#EXT-X-TARGETDURATION:11
+#EXTINF:9.92,"739780"
+http://v.dongaocloud.com/2b4f/2ba8/3bc/85a/67ae509db7b2a5675f71ea6d7e175ee9/67ae509db7b2a5675f71ea6d7e175ee9-000.ts?Schema=sd&Speed=18&VideoId=20129733
+#EXTINF:10,"601036"
+http://v.dongaocloud.com/2b4f/2ba8/3bc/85a/67ae509db7b2a5675f71ea6d7e175ee9/67ae509db7b2a5675f71ea6d7e175ee9-001.ts?Schema=sd&Speed=18&VideoId=20129733
+#EXTINF:10,"628484"
+http://v.dongaocloud.com/2b4f/2ba8/3bc/85a/67ae509db7b2a5675f71ea6d7e175ee9/67ae509db7b2a5675f71ea6d7e175ee9-002.ts?Schema=sd&Speed=18&VideoId=20129733
+#EXTINF:1.16,"96820"
+http://v.dongaocloud.com/2b4f/2ba8/3bc/85a/67ae509db7b2a5675f71ea6d7e175ee9/67ae509db7b2a5675f71ea6d7e175ee9-003.ts?Schema=sd&Speed=18&VideoId=20129733
+#EXT-X-ENDLIST

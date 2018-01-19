@@ -1,18 +1,26 @@
 <html>
 <head>
+    <script type="text/javascript" src="./source/jquery.min.js"></script>
 </head>
 <body>
+<button id="test">测试</button>
 <div class="video" id="HLSPlayer">
-    <SCRIPT LANGUAGE=JavaScript>
-        var vID = "";
-        var vWidth = "100%";                //播放器宽度设置
-        var vHeight = 400;                   //播放器宽度设置
-        var vPlayer = "./source/HLSPlayer.swf?v=1.5"; //播放器文件
-        var vHLSset = "./source/HLS.swf";             //HLS配置
-        var vPic = "./source/images/start.jpg";    //视频缩略图
-        var vCssurl = "./source/images/mini.css";     //移动端CSS应用文件
-        var vHLSurl = "./source/14350/video.m3u8";
-        //-->
-    </SCRIPT>
-    <script type="text/javascript" src="./source/hls.min.js?rand=3396fsa778"></script>
 </div>
+<SCRIPT LANGUAGE=JavaScript>
+    var vID = "";
+    var vWidth = "100%";                //播放器宽度设置
+    var vHeight = 400;                   //播放器宽度设置
+    var vPlayer = "./source/HLSPlayer.swf?v=1.5"; //播放器文件
+    var vHLSset = "./source/HLS.swf";             //HLS配置
+    var vPic = "./source/images/start.jpg";    //视频缩略图
+    var vCssurl = "./source/images/mini.css";     //移动端CSS应用文件
+    var vHLSurl = "./source/location/1516345283080/12260/video.m3u8";
+    //-->
+</SCRIPT>
+<script type="text/javascript" src="./source/hls.min.js?rand=3396fsa778"></script>
+<script>
+$("#test").bind("click",function () {
+    hls.loadSource('./source/location/1516345283080/12352/video.m3u8');
+});
+</script>
+</body>

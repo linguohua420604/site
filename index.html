@@ -5,7 +5,14 @@
 <body>
 <button id="test">测试</button>
 <div class="video" id="HLSPlayer">
+
     <SCRIPT LANGUAGE=JavaScript>
+        function GetQueryString(name)
+        {
+            var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if(r!=null)return  unescape(r[2]); return null;
+        }
         var vID = "";
         var vWidth = "100%";                //播放器宽度设置
         var vHeight = 400;                   //播放器宽度设置
@@ -13,14 +20,16 @@
         var vHLSset = "./source/HLS.swf";             //HLS配置
         var vPic = "./source/images/start.jpg";    //视频缩略图
         var vCssurl = "./source/images/mini.css";     //移动端CSS应用文件
-        var vHLSurl = "./source/location/1516345283080/12260/video.m3u8";
+        var vHLSurl =GetQueryString("url")?"./source/location/1516345283080/12260/video.m3u8":GetQueryString("url");
         //-->
     </SCRIPT>
     <script type="text/javascript" src="./source/hls.min.js?rand=3396fsa778"></script>
 </div>
 <script>
 $("#test").bind("click",function () {
-    vHLSurl='./source/location/1516345283080/12352/video.m3u8';
+   var url="https://linguohua420604.github.io/site/?url="+"./source/location/1516345283080/12352/video.m3u8";
+    location.assign(url);
+    location.reload(true)
 });
 </script>
 </body>

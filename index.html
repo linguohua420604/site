@@ -21,19 +21,23 @@
     function bindFirst() {
         $("#first").html("");
         $("#first").append("<option value='2b64'>冲刺</option>");
+        $("#first").append("<option value='2b90'>新三板</option>");
+        $("#first").append("<option value='2b53'>冲刺串讲</option>");
         $("#first").append("<option value='2ba9'>初级会计实务</option>");
         $("#first").append("<option value='2ba8'>经济法基础</option>");
         bindSecond("2b64");
-    };
+    }
+    ;
     function bindSecond(id) {
         $("#second").html("");
-        $.getJSON("https://linguohua420604.github.io/site/source/location/" + id +"_data.json", function (result) {
+        $.getJSON("https://linguohua420604.github.io/site/source/location/" + id + "_data.json", function (result) {
             $.each(result, function (i, field) {
                 $("#second").append("<option value='" + field["id"] + "'>" + field["name"] + "</option>");
             });
-            bindThree(id,result[0]["id"])
+            bindThree(id, result[0]["id"])
         });
-    };
+    }
+    ;
     function bindThree(first, id) {
         $("#three").html("");
         var url = "https://linguohua420604.github.io/site/source/location/" + first + "/" + id + "_data.json";

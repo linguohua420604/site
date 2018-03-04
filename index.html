@@ -9,42 +9,57 @@
 <select name="second" id="second" style="width: 200px;font-size:12px">
 
 </select>
+
+<select name="three" id="three" style="width: 200px;font-size:12px">
+
+</select>
 <button id="load">加载</button>
 <iframe id="url" src="" height="100%" width="100%">
 
 </iframe>
 <script>
-    function bindFirst(){
+    function bindFirst() {
         $("#first").html("");
+        $("#first").append("<option value='2ba4'>冲刺</option>");
         $("#first").append("<option value='2ba9'>初级会计实务</option>");
         $("#first").append("<option value='2ba8'>经济法基础</option>");
-        bindSecond("2ba9");
-    };
-    function bindSecond(id){
+        bindSecond("2ba4");
+    }
+    ;
+    function bindSecond(id) {
         $("#second").html("");
-       if(id=="2ba9") {
-           $.getJSON("https://linguohua420604.github.io/site/source/location/1516354794008_data.json", function (result) {
-               $.each(result, function (i, field) {
-                   $("#second").append("<option value='" + field["url"] + "'>" + field["name"] + "</option>");
-               });
-           });
-       }else{
-           $.getJSON("https://linguohua420604.github.io/site/source/location/1516354772069_data.json", function (result) {
-               $.each(result, function (i, field) {
-                   $("#second").append("<option value='" + field["url"] + "'>" + field["name"] + "</option>");
-               });
-           });
-       }
-    };
-    $("#first").change(function(){
+        $.getJSON("https://linguohua420604.github.io/site/source/location/" + id + "_data.json", function (result) {
+            $.each(result, function (i, field) {
+                $("#second").append("<option value='" + field["url"] + "'>" + field["name"] + "</option>");
+            });
+        });
+    }
+    ;
+    function bindThree(first, id) {
+        $("#three").html("");
+        var url = "https://linguohua420604.github.io/site/source/location/" + first + "/" + id + "_data.json";
+        $.getJSON(url, function (result) {
+            $.each(result, function (i, field) {
+                $("#three").append("<option value='" + field["url"] + "'>" + field["name"] + "</option>");
+            });
+        });
+    }
+    ;
+    $("#first").change(function () {
         var val = $(this).children('option:selected').val();
-        if(val) {
+        if (val) {
             bindSecond(val);
         }
     });
-    $("#load").on('click',function(){
-        var url="https://linguohua420604.github.io/site/player.html?url="+ $('#second option:selected').val();
-        document.getElementById("url").src=url;
+    $("#second").change(function () {
+        var val = $(this).children('option:selected').val();
+        if (val) {
+            bindThree($('#first option:selected').val(), val);
+        }
+    });
+    $("#load").on('click', function () {
+        var url = "https://linguohua420604.github.io/site/player.html?url=" + $('#three option:selected').val();
+        document.getElementById("url").src = url;
     });
     bindFirst();
 </script>

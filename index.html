@@ -17,7 +17,6 @@
 <iframe id="url" src="" height="100%" width="100%">
 
 </iframe>
-222
 <script>
     function bindFirst() {
         $("#first").html("");
@@ -25,11 +24,10 @@
         $("#first").append("<option value='2ba9'>初级会计实务</option>");
         $("#first").append("<option value='2ba8'>经济法基础</option>");
         bindSecond("2ba4");
-    }
-    ;
+    };
     function bindSecond(id) {
         $("#second").html("");
-        $.getJSON("https://linguohua420604.github.io/site/source/location/" + id + "_data.json", function (result) {
+        $.getJSON("https://linguohua420604.github.io/site/source/location/2ba4_data.json", function (result) {
             $.each(result, function (i, field) {
                 $("#second").append("<option value='" + field["url"] + "'>" + field["name"] + "</option>");
             });

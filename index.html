@@ -31,9 +31,9 @@
             $.each(result, function (i, field) {
                 $("#second").append("<option value='" + field["url"] + "'>" + field["name"] + "</option>");
             });
+            bindThree(id,result[0][""])
         });
-    }
-    ;
+    };
     function bindThree(first, id) {
         $("#three").html("");
         var url = "https://linguohua420604.github.io/site/source/location/" + first + "/" + id + "_data.json";

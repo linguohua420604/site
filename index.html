@@ -29,9 +29,9 @@
         $("#second").html("");
         $.getJSON("https://linguohua420604.github.io/site/source/location/" + id +"_data.json", function (result) {
             $.each(result, function (i, field) {
-                $("#second").append("<option value='" + field["url"] + "'>" + field["name"] + "</option>");
+                $("#second").append("<option value='" + field["id"] + "'>" + field["name"] + "</option>");
             });
-            bindThree(id,result[0][""])
+            bindThree(id,result[0]["id"])
         });
     };
     function bindThree(first, id) {
